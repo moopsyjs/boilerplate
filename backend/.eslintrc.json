@@ -1,0 +1,40 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "standard-with-typescript",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "object-curly-newline": "off",
+    "comma-dangle": "off",
+    "indent": "off",
+    "no-multi-spaces": ["error"],
+    "semi": ["error", "always"],
+    "@typescript-eslint/semi": ["error", "always"],
+    "no-extra-semi": "off",
+    "@typescript-eslint/no-invalid-void-type": "off",
+    "require-await": "off",
+    "@typescript-eslint/require-await": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/quotes": "off",
+    "@typescript-eslint/no-floating-promises": ["error"],
+    "arrow-parens": "error",
+    "multiline-ternary": "off",
+    "@typescript-eslint/member-delimiter-style": "off",
+    "object-property-newline": "off",
+    "no-labels": "off"
+  },
+  "ignorePatterns": ["**/blueprints"]
+}

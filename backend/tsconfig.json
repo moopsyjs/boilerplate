@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "../",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "module": "CommonJS"
+  },
+  "include": ["./src/**/*", "../blueprints"]
+}

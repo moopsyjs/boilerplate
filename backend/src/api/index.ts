@@ -1,0 +1,1 @@
+import './endpoints/hello/world';

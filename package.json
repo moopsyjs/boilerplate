@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@moopsyjs/devtools": "^1.0.7"
+  },
+  "moopsy": "moopsy.json"
+}

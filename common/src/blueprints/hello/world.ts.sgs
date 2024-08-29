@@ -1,0 +1,1 @@
+{"hash":"528d6143253f31c9303a99216802cc021fb7491d60a7d940d6d728132c871136","schema":{"type":"object","properties":{"hello":{"type":"string"}},"required":["hello"],"$schema":"http://json-schema.org/draft-07/schema#"}}
