@@ -10,9 +10,12 @@
   "description": "",
   "dependencies": {
     "@moopsyjs/core": "^1.0.1",
-    "@moopsyjs/server": "^1.0.0"
+    "@moopsyjs/server": "^1.0.0",
+    "mongodb": "^6.8.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/eslint-plugin-tslint": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
