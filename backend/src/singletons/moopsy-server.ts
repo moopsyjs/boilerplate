@@ -1,4 +1,5 @@
-import { MoopsyServer } from "@moopsyjs/server";
+import { FrontendServer, MoopsyServer } from "@moopsyjs/server";
+import * as path from "path";
 
 export const server = new MoopsyServer(
   {
@@ -7,3 +8,5 @@ export const server = new MoopsyServer(
   },
   {}
 );
+
+new FrontendServer(server).mount(path.join(__dirname, '/../../../frontend'));
